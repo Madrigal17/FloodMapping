@@ -68,7 +68,8 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
                                         );
 
                                 Toast.makeText(getApplicationContext(), "User Login Successfully", Toast.LENGTH_LONG).show();
-
+                                    Intent intent = new Intent(Login.this,MapsActivity.class);
+                                    startActivity(intent);
 
 
                             }else {
